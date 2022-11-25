@@ -1,118 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CalculateurJS</title>
     <link rel="stylesheet" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link 
-    href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-    rel="stylesheet"/>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--rectangle top-->
 
     <header>
-        <div class="rectangleVioletTop">
-          <h1>Mon calculateur de moyenne</h1>
-        </div>
-      </header>
-
+      <div class="rectangleVioletTop">
+        <h1>Mon calculateur de moyenne</h1>
+      </div>
+    </header>
 
     <div class="grid-global">
+      <!--groupe 1 (école pro)-->
 
-        <div class="grp1">
-
-          <div class="top">
-            <h2 class="background-violet">École pro.</h2>
-          </div>
-
-          <div class="mid">
-
-          </div>
-
-          <div class="bot">
-
-          </div>
-
+      <div class="grp1">
+        <div class="top">
+          <h2 class="background-violet">École pro.</h2>
         </div>
 
+        <div class="mid">
+          <br />
+          <br />
 
-        <div class="grp2">
+          <div class="input_add-del">
+            <div class="input_add">
+              <button class="button_add1">+</button>
+            </div>
 
-          <div class="top">
-            <h2 class="background-violet">Cours inter.</h2>
+            <div class="input_del">
+              <button class="button_del1">-</button>
+            </div>
           </div>
 
-          <div class="mid">
-
-          </div>
-
-          <div class="bot">
-
-          </div>
-
-        </div>
-        
-        
-        <div class="grp3">
-
-          <div class="top">
-            <h2 class="background-violet">Compétence de base élargie</h2>
-          </div>
-
-          <div class="mid">
-
-          </div>
-
-          <div class="bot">
-
-          </div>
-
+          <h4>
+            Votre moyenne est de :
+            <span id="average-ecole_pro-semestre1"></span>
+          </h4>
         </div>
 
+        <div class="bot"></div>
+      </div>
 
-        <div class="grp4">
+      <!--groupe 2 (Cours inter.)-->
 
-          <div class="top">
-            <h2 class="background-violet">Culture G</h2>
-          </div>
-
-          <div class="mid">
-
-          </div>
-
-          <div class="bot">
-
-          </div>
-
+      <div class="grp2">
+        <div class="top">
+          <h2 class="background-violet">Cours inter.</h2>
         </div>
 
+        <div class="mid"></div>
 
-        <div class="grp5">
+        <div class="bot"></div>
+      </div>
 
-          <div class="top">
-            <h2 class="background-violet">TPI</h2>
-          </div>
+      <!--groupe 3 (Compétence de base)-->
 
-          <div class="mid">
-
-          </div>
-
-          <div class="bot">
-
-          </div>
-
+      <div class="grp3">
+        <div class="top">
+          <h2 class="background-violet">Compétence de base élargie</h2>
         </div>
 
+        <br />
+        <br />
+
+        <div class="bouton-3">
+          <button class="button math">Math</button>
+          <button class="button anglais">Anglais</button>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="radio-1">
+          <form>
+            <div class="radio-cdb">
+              <div class="radio-colonne">
+                <input
+                  type="radio"
+                  id="choice-cdb-1"
+                  name="choice-cdb"
+                  value="semestre"
+                  checked
+                />
+                <label for="choice-cdb-1">1</label>
+              </div>
+
+              <div class="radio-colonne">
+                <input
+                  type="radio"
+                  id="choice-cdb-2"
+                  name="choice-cdb"
+                  value="semestre"
+                />
+                <label for="choice-cdb-2">2</label>
+              </div>
+
+              <div class="radio-colonne">
+                <input
+                  type="radio"
+                  id="choice-cdb-3"
+                  name="choice-cdb"
+                  value="semestre"
+                />
+                <label for="choice-cdb-3">3</label>
+              </div>
+
+              <div class="radio-colonne">
+                <input
+                  type="radio"
+                  id="choice-cdb-4"
+                  name="choice-cdb"
+                  value="semestre"
+                />
+                <label for="choice-cdb-4">4</label>
+              </div>
+
+              <div class="radio-colonne">
+                <input
+                  type="radio"
+                  id="choice-cdb-5"
+                  name="choice-cdb"
+                  value="semestre"
+                />
+                <label for="choice-cdb-5">5</label>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="mid"></div>
+
+        <div class="bot"></div>
+      </div>
+
+      <!--groupe 4 (culture g)-->
+
+      <div class="grp4">
+        <div class="top">
+          <h2 class="background-violet">Culture G</h2>
+        </div>
+
+        <div class="mid"></div>
+
+        <div class="bot"></div>
+      </div>
+
+      <!--groupe 4 (TPI)-->
+
+      <div class="grp5">
+        <div class="top">
+          <h2 class="background-violet">TPI</h2>
+        </div>
+
+        <div class="mid"></div>
+
+        <div class="bot"></div>
+      </div>
     </div>
 
     <footer>
-        <div class="rectangleGrisBottom"></div>
-      </footer>
+      <div class="rectangleGrisBottom"></div>
+    </footer>
 
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
