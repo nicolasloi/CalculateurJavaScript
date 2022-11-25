@@ -1,17 +1,82 @@
 * {
-    margin: 0;
-    max-width: 1440px;
-    max-height: 1024px;
-  }
+  margin: 0;
+  max-width: 1440px;
+  max-height: 1024px;
+}
 
-  h1 {
-    font-style: normal; 
-    font-weight: 400;
-    font-size: 44px;
-    line-height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    color: #ffffff;
-  }
+/* titre (barre violette)*/
+
+h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.rectangleVioletTop {
+  width: 1440px;
+  height: 90px;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+
+  background: #767ada;
+}
+
+/* rectangle gris bottom*/
+
+.rectangleGrisBottom {
+  position: absolute;
+  width: 1440px;
+  height: 32px;
+  left: 0px;
+  top: 992px;
+
+  background: #d9d9d9;
+}
+
+/* grid global */
+
+.grid-global {
+  display: grid;
+  grid-template-columns: repeat(5, 285px);
+  justify-items: center;
+}
+
+
+/* Titre des matières */
+
+h2 {
+  font-family: "Inter";
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.background-violet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 29px;
+
+  height: 42px;
+  width: 138px;
+  background: #767ada;
+  border: 4px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
