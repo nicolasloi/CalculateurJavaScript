@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,27 +13,257 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <!--rectangle top-->
 
+  <body>
     <header>
       <div class="rectangleVioletTop">
         <h1>Mon calculateur de moyenne</h1>
       </div>
     </header>
 
-    <div class="grid-global">
-      <!--groupe 1 (école pro)-->
+    <main>
+      <div class="grid-global">
+        <div class="grp1">
 
-      <div class="grp1">
-        <div class="top">
-          <h2 class="background-violet">École pro.</h2>
+          <div class="grp1-top">
+
+          
+          <div class="grid1">
+            <div class="ecole-pro">
+              <h2 class="background-violet">École pro.</h2>
+            </div>
+          </div>
+
         </div>
 
-        <div class="mid">
-          <br />
-          <br />
 
+            <table style="width: 100%">
+              <tr>
+                <th>Description :</th>
+                <th>Note :</th>
+              </tr>
+              <tr>
+                <th>
+                  <input
+                    type="text"
+                    id="description_ecole-pro_sem1"
+                    name="descriptionInput"
+                  />
+                </th>
+                <th>
+                  <input
+                    type="number"
+                    id="grade_ecole-pro_sem1"
+                    step=".5"
+                    name="gradeInput"
+                    min="1"
+                    max="6"
+                  /><br /><br />
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <input
+                    type="text"
+                    id="description_ecole-pro_sem1"
+                    name="descriptionInput"
+                  />
+                </th>
+                <th>
+                  <input
+                    type="number"
+                    id="grade_ecole-pro_sem1"
+                    step=".5"
+                    name="gradeInput"
+                    min="1"
+                    max="6"
+                  /><br /><br />
+                </th>
+              </tr>
+            </table>
+            -->
+        </div>
+
+
+
+        <div class="grp2">
+          <div class="cours-inter">
+            <h2 class="background-violet">Cours inter.</h2>
+          </div>
+        </div>
+
+        <div class="grp3">
+          <div class="Competence-de-base">
+            <h2 class="background-violet">Compétence de base élargie</h2>
+
+            <div class="bouton-3">
+              <button class="button math">Math</button>
+              <button class="button anglais">Anglais</button>
+            </div>
+
+            <div class="radio-1">
+              <form>
+                <div class="radio-cdb">
+                  <div class="radio-colonne">
+                    <input
+                      type="radio"
+                      id="choice-cdb-1"
+                      name="choice-cdb"
+                      value="semestre"
+                      checked
+                    />
+                    <label for="choice-cdb-1">1</label>
+                  </div>
+
+                  <div class="radio-colonne">
+                    <input
+                      type="radio"
+                      id="choice-cdb-2"
+                      name="choice-cdb"
+                      value="semestre"
+                    />
+                    <label for="choice-cdb-2">2</label>
+                  </div>
+
+                  <div class="radio-colonne">
+                    <input
+                      type="radio"
+                      id="choice-cdb-3"
+                      name="choice-cdb"
+                      value="semestre"
+                    />
+                    <label for="choice-cdb-3">3</label>
+                  </div>
+
+                  <div class="radio-colonne">
+                    <input
+                      type="radio"
+                      id="choice-cdb-4"
+                      name="choice-cdb"
+                      value="semestre"
+                    />
+                    <label for="choice-cdb-4">4</label>
+                  </div>
+
+                  <div class="radio-colonne">
+                    <input
+                      type="radio"
+                      id="choice-cdb-5"
+                      name="choice-cdb"
+                      value="semestre"
+                    />
+                    <label for="choice-cdb-5">5</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="grp4">
+          <div class="culture-G">
+            <h2 class="background-violet">Culture G</h2>
+          </div>
+
+          <div class="radio-2" >
+            <form>
+              <div class="radio-cult">
+                <div class="radio-colonne">
+                  <input
+                    type="radio"
+                    id="radio-cult-1"
+                    name="choice-cult"
+                    value="semestre"
+                    checked
+                  />
+                  <label for="radio-cult-1">1</label>
+                </div>
+
+                <div class="radio-colonne">
+                  <input
+                    type="radio"
+                    id="radio-cult-2"
+                    name="choice-cult"
+                    value="semestre"
+                  />
+                  <label for="radio-cult-2">2</label>
+                </div>
+
+                <div class="radio-colonne">
+                  <input
+                    type="radio"
+                    id="radio-cult-3"
+                    name="choice-cult"
+                    value="semestre"
+                  />
+                  <label for="radio-cult-3">3</label>
+                </div>
+
+                <div class="radio-colonne">
+                  <input
+                    type="radio"
+                    id="radio-cult-4"
+                    name="choice-cult"
+                    value="semestre"
+                  />
+                  <label for="radio-cult-4">4</label>
+                </div>
+
+                <div class="radio-colonne">
+                  <input
+                    type="radio"
+                    id="radio-cult-5"
+                    name="choice-cult"
+                    value="semestre"
+                  />
+                  <label for="radio-cult-5">5</label>
+                </div>
+
+                <div class="radio-colonne">
+                  <input
+                    type="radio"
+                    id="radio-cult-6"
+                    name="choice-cult"
+                    value="semestre"
+                />
+                  <label for="radio-cult-6">6</label>
+                </div>
+
+                <div class="radio-colonne">
+                  <input
+                    type="radio"
+                    id="radio-cult-7"
+                    name="choice-cult"
+                    value="semestre"
+                  />
+                  <label for="radio-cult-7">7</label>
+                </div>
+
+                <div class="radio-colonne">
+                  <input
+                    type="radio"
+                    id="radio-cult-8"
+                    name="choice-cult"
+                    value="semestre"
+                  />
+                  <label for="radio-cult-8">8</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="grp5">
+          <div class="TPI">
+            <h2 class="background-violet">TPI</h2>
+          </div>
+        </div>
+
+        <!-- 2ème ligne -->
+
+        <!-- 
+      <div>
+        <div class="ecole-pro2">
           <div class="input_add-del">
             <div class="input_add">
               <button class="button_add1">+</button>
@@ -43,132 +273,143 @@
               <button class="button_del1">-</button>
             </div>
           </div>
-
-          <h4>
-            Votre moyenne est de :
-            <span id="average-ecole_pro-semestre1"></span>
-          </h4>
         </div>
-
-        <div class="bot"></div>
       </div>
 
-      <!--groupe 2 (Cours inter.)-->
 
-      <div class="grp2">
-        <div class="top">
-          <h2 class="background-violet">Cours inter.</h2>
-        </div>
 
-        <div class="mid"></div>
-
-        <div class="bot"></div>
-      </div>
-
-      <!--groupe 3 (Compétence de base)-->
-
-      <div class="grp3">
-        <div class="top">
-          <h2 class="background-violet">Compétence de base élargie</h2>
-        </div>
-
-        <br />
-        <br />
-
-        <div class="bouton-3">
-          <button class="button math">Math</button>
-          <button class="button anglais">Anglais</button>
-        </div>
-
-        <br />
-        <br />
-
-        <div class="radio-1">
-          <form>
-            <div class="radio-cdb">
-              <div class="radio-colonne">
-                <input
-                  type="radio"
-                  id="choice-cdb-1"
-                  name="choice-cdb"
-                  value="semestre"
-                  checked
-                />
-                <label for="choice-cdb-1">1</label>
-              </div>
-
-              <div class="radio-colonne">
-                <input
-                  type="radio"
-                  id="choice-cdb-2"
-                  name="choice-cdb"
-                  value="semestre"
-                />
-                <label for="choice-cdb-2">2</label>
-              </div>
-
-              <div class="radio-colonne">
-                <input
-                  type="radio"
-                  id="choice-cdb-3"
-                  name="choice-cdb"
-                  value="semestre"
-                />
-                <label for="choice-cdb-3">3</label>
-              </div>
-
-              <div class="radio-colonne">
-                <input
-                  type="radio"
-                  id="choice-cdb-4"
-                  name="choice-cdb"
-                  value="semestre"
-                />
-                <label for="choice-cdb-4">4</label>
-              </div>
-
-              <div class="radio-colonne">
-                <input
-                  type="radio"
-                  id="choice-cdb-5"
-                  name="choice-cdb"
-                  value="semestre"
-                />
-                <label for="choice-cdb-5">5</label>
-              </div>
+      <div>
+        <div class="cours-inter2">
+          <div class="input_add-del">
+            <div class="input_add">
+              <button class="button_add2">+</button>
             </div>
+
+            <div class="input_del">
+              <button class="button_del2">-</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div>
+        <div class="Competence-de-base2">
+          <div class="input_add-del">
+            <div class="input_add">
+              <button class="button_add3">+</button>
+            </div>
+
+            <div class="input_del">
+              <button class="button_del3">-</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div>
+        <div class="culture-G2">
+          <div class="input_add-del">
+            <div class="input_add">
+              <button class="button_add4">+</button>
+            </div>
+
+            <div class="input_del">
+              <button class="button_del4">-</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div>
+        <div class="TPI2">
+          <div class="input_add-del">
+            <div class="input_add">
+              <button class="button_add5">+</button>
+            </div>
+
+            <div class="input_del">
+              <button class="button_del5">-</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- 3ème ligne (les tables)-->
+
+        <!-- 
+      <table id="table_ecole-pro" class="table" border="1">
+        <thead>
+          <form method="post" name="sample" id="demo">
+            <th>
+              Note : 
+              <br /><br />
+              <input type="number" id="grade_ecole-pro_sem1" step=".5" name="gradeInput" min="1" max="6" /><br /><br />
+            </th>
+            <th>
+              Description : <br /><br />
+              <input type="text" id="description_ecole-pro_sem1" name="descriptionInput" />
+              <br /><br />
+            </th>
           </form>
-        </div>
+        </thead>
+      </table>
 
-        <div class="mid"></div>
+      <table id="table_ecole-pro" class="table" border="1">
+        <thead>
+          <form method="post" name="sample" id="demo">
+            <th>
+              Note : 
+              <br /><br />
+              <input type="number" id="grade_ecole-pro_sem1" step=".5" name="gradeInput" min="1" max="6" /><br /><br />
+            </th>
+            <th>
+              Description : <br /><br />
+              <input type="text" id="description_ecole-pro_sem1" name="descriptionInput" />
+              <br /><br />
+            </th>
+          </form>
+        </thead>
+      </table>
 
-        <div class="bot"></div>
+      <table id="table_ecole-pro" class="table" border="1">
+        <thead>
+          <form method="post" name="sample" id="demo">
+            <th>
+              Note : 
+              <br /><br />
+              <input type="number" id="grade_ecole-pro_sem1" step=".5" name="gradeInput" min="1" max="6" /><br /><br />
+            </th>
+            <th>
+              Description : <br /><br />
+              <input type="text" id="description_ecole-pro_sem1" name="descriptionInput" />
+              <br /><br />
+            </th>
+          </form>
+        </thead>
+      </table>
+
+      <table id="table_ecole-pro" class="table" border="1">
+        <thead>
+          <form method="post" name="sample" id="demo">
+            <th>
+              Note : 
+              <br /><br />
+              <input type="number" id="grade_ecole-pro_sem1" step=".5" name="gradeInput" min="1" max="6" /><br /><br />
+            </th>
+            <th>
+              Description : <br /><br />
+              <input type="text" id="description_ecole-pro_sem1" name="descriptionInput" />
+              <br /><br />
+            </th>
+          </form>
+        </thead>
+      </table> -->
       </div>
-
-      <!--groupe 4 (culture g)-->
-
-      <div class="grp4">
-        <div class="top">
-          <h2 class="background-violet">Culture G</h2>
-        </div>
-
-        <div class="mid"></div>
-
-        <div class="bot"></div>
-      </div>
-
-      <!--groupe 4 (TPI)-->
-
-      <div class="grp5">
-        <div class="top">
-          <h2 class="background-violet">TPI</h2>
-        </div>
-
-        <div class="mid"></div>
-
-        <div class="bot"></div>
-      </div>
-    </div>
+    </main>
 
     <footer>
       <div class="rectangleGrisBottom"></div>
