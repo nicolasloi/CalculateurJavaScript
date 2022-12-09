@@ -7,7 +7,7 @@
 /* titre (barre violette)*/
 
 h1 {
-  font-style: normal; 
+  font-style: normal;
   font-weight: 400;
   font-size: 44px;
   line-height: 40px;
@@ -49,7 +49,6 @@ h1 {
   justify-items: center;
 }
 
-
 .grid_top {
   display: grid;
   grid-template-rows: 240px;
@@ -62,7 +61,7 @@ h1 {
 
 .grid_bot {
   display: grid;
-  grid-template-rows: 200px;
+  grid-template-rows: 100px;
 }
 
 /* FIRST LINE */
@@ -175,9 +174,9 @@ h2 {
 }
 
 .culture-G {
-  display: flex;
+  display: grid;
   justify-content: center;
-} 
+}
 
 .ecole-pro {
   display: grid;
@@ -240,10 +239,10 @@ h2 {
   grid-template-rows: [row1-start] 20px [row1-end row2-start] 20px [row2-end ];
 }
 
-
 /* table */
 
-td, th{
+td,
+th {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 4px;
@@ -251,4 +250,17 @@ td, th{
 
 thead {
   background-color: rgb(234, 234, 234);
+}
+
+h4 {
+  display: flex;
+  margin: 30px;
+  align-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
 }
