@@ -24,53 +24,66 @@
     <main>
       <div class="grid-global">
         <div class="grp1">
-          <div class="grp1-top">
-            <div class="grid1">
-              <div class="ecole-pro">
-                <h2 class="background-violet">École pro.</h2>
+          <div class="ecole-pro">
+            <div class="grid_top">
+              <h2 class="background-violet">École pro.</h2>
 
-
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-
-                <div class="entre_ta_note">
-                <input type="text" id="lname" name="lname"><br><br>
-                <input type="text" id="lname" name="lname"><br><br>
-              </div>
-
-                <div class="bouton-3">
-                  <button class="buton add">-</button>
-                  <button class="buton del">+</button>
-                </div>
-
+              <div class="bouton-3">
+                <button type="button" class="buton add" id="add_ecole-pro">
+                  +
+                </button>
+                <button class="buton del" id="del_ecole-pro">-</button>
               </div>
             </div>
+
+            <div class="grid_mid">
+              <div class="table-responsive">
+                <table class="table" id="table_ecole-pro">
+                  <thead>
+                    <tr>
+                      <th scope="col">Description</th>
+                      <th scope="col">Note</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="grid_bot"></div>
           </div>
         </div>
 
         <div class="grp2">
           <div class="cours-inter">
-            <h2 class="background-violet">Cours inter.</h2>
+            <div class="grid_top">
+              <h2 class="background-violet">Cours inter.</h2>
 
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-
-            <div class="bouton-3">
-              <button class="buton add">-</button>
-              <button class="buton del">+</button>
+              <div class="bouton-3">
+                <button class="buton add">+</button>
+                <button class="buton del">-</button>
+              </div>
             </div>
 
+            <div class="grid_mid">
+              <div class="table-responsive">
+                <table class="table" id="table_cours-inter">
+                  <thead>
+                    <tr>
+                      <th scope="col">Description</th>
+                      <th scope="col">Note</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr></tr>
+                    <tr></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="grid_bot"></div>
           </div>
         </div>
 
@@ -79,8 +92,8 @@
             <h2 class="background-violet">Compétence de base élargie</h2>
 
             <div class="bouton-3">
-              <button class="button math">Math</button>
-              <button class="button anglais">Anglais</button>
+              <button class="button math" type="button">Math</button>
+              <button class="button anglais" type="button">Anglais</button>
             </div>
 
             <div class="radio-1">
@@ -141,10 +154,28 @@
             </div>
 
             <div class="bouton-3">
-              <button class="buton add">-</button>
-              <button class="buton del">+</button>
+              <button class="buton add">+</button>
+              <button class="buton del">-</button>
             </div>
 
+            <div class="grid_mid">
+              <div class="table-responsive">
+                <table class="table" id="table_cdb">
+                  <thead>
+                    <tr>
+                      <th scope="col">Description</th>
+                      <th scope="col">Note</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr></tr>
+                    <tr></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="grid_bot"></div>
           </div>
         </div>
 
@@ -239,35 +270,61 @@
               </div>
             </form>
 
-            <br>
+            <br />
 
             <div class="bouton-3">
-              <button class="buton add">-</button>
-              <button class="buton del">+</button>
+              <button class="buton add">+</button>
+              <button class="buton del">-</button>
             </div>
 
+            <div class="grid_mid">
+              <div class="table-responsive">
+                <table class="table" id="table_culture-G">
+                  <thead>
+                    <tr>
+                      <th scope="col">Description</th>
+                      <th scope="col">Note</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr></tr>
+                    <tr></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
-
         </div>
 
         <div class="grp5">
           <div class="TPI">
-            <h2 class="background-violet">TPI</h2>
+            <div class="grid_top">
+              <h2 class="background-violet">TPI</h2>
 
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-
-
-            <div class="bouton-3">
-              <button class="buton add">-</button>
-              <button class="buton del">+</button>
+              <div class="bouton-3">
+                <button class="buton add">+</button>
+                <button class="buton del">-</button>
+              </div>
             </div>
 
+            <div class="grid_mid">
+              <div class="table-responsive">
+                <table class="table" id="table_TPI">
+                  <thead>
+                    <tr>
+                      <th scope="col">Description</th>
+                      <th scope="col">Note</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr></tr>
+                    <tr></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="grid_bot"></div>
           </div>
         </div>
       </div>

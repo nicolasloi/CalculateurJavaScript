@@ -50,9 +50,19 @@ h1 {
 }
 
 
-.grid1 {
+.grid_top {
   display: grid;
-  grid-template-rows: repeat(3, 230px);
+  grid-template-rows: 240px;
+}
+
+.grid_mid {
+  display: grid;
+  grid-template-rows: 235px;
+}
+
+.grid_bot {
+  display: grid;
+  grid-template-rows: 200px;
 }
 
 /* FIRST LINE */
@@ -169,6 +179,21 @@ h2 {
   justify-content: center;
 } 
 
+.ecole-pro {
+  display: grid;
+  justify-items: center;
+}
+
+.cours-inter {
+  display: grid;
+  justify-items: center;
+}
+
+.TPI {
+  display: grid;
+  justify-items: center;
+}
+
 .buton {
   border: none;
   color: white;
@@ -213,4 +238,17 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, 105px);
   grid-template-rows: [row1-start] 20px [row1-end row2-start] 20px [row2-end ];
+}
+
+
+/* table */
+
+td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+}
+
+thead {
+  background-color: rgb(234, 234, 234);
 }
