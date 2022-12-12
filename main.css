@@ -239,21 +239,29 @@ h2 {
   grid-template-rows: [row1-start] 20px [row1-end row2-start] 20px [row2-end ];
 }
 
-/* table */
+ /* table */
 
-td,
-th {
+ td,th {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 4px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 130%;
 }
 
 thead {
   background-color: rgb(234, 234, 234);
 }
 
-h4 {
-  display: flex;
+
+/* moyenne mid */
+
+ h4 {
   margin: 30px;
   align-items: center;
 
@@ -263,4 +271,135 @@ h4 {
   font-size: 10px;
   line-height: 12px;
   text-align: center;
+} 
+
+
+/* bottom page */
+
+
+.bottomPage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-top: 28px;
+}
+
+.bottomPage h3 {
+  color: white;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.bottomPage th {
+  color: white;
+}
+
+.grp1BottomPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.infoArrondie tbody>P {
+  display: flex;
+  justify-items: center;
+}
+
+.grp1BottomPage>table, th, td {
+  border: 1px solid #767ADA;
+}
+
+.grp1BottomPage table {
+  width: 237px;
+  height: 169px;
+
+}
+
+.grp1BottomPage th {
+  width: 237px;
+  height: 28px;
+  background-color: #767ADA;
+}
+
+.grp2BottomPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.grp2BottomPage>table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.grp2BottomPage table {
+  border: 1px solid black;
+  width: 237px;
+  height: 169px;
+}
+
+
+.grp2BottomPage th {
+  width: 237px;
+  height: 28px;
+  background-color: #767ADA;
+
+}
+
+.branchesEtMoyennes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grp3BottomPage {
+  width: 237px;
+  height: 169px;
+  display: grid;
+  justify-items: center;
+}
+
+.titleMoyenneGlobal {
+
+  left: 0%;
+  right: 0%;
+  top: 23.81%;
+  bottom: -23.81%;
+
+  width: 143px;
+  height: 52px;
+  background: #767ADA;
+  border: 4px solid #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: grid;
+  justify-items: center;
+
+}
+
+.reussiOuEchec {
+
+  left: 80%;
+  right: 13.26%;
+  top: 87.17%;
+  bottom: 9.12%;
+
+  background: #FFFFFF;
+  border: 4px solid #767ADA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  width: 97px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  vertical-align: inherit;
 }
