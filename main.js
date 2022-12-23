@@ -1,4 +1,5 @@
-// creation des objets
+console.log("test");
+
 
 let notes = {
 
@@ -50,18 +51,46 @@ let table = document.getElementsByClassName("table")
 console.log(table)
 
 
-// function for add new row in table
-function addButton(index) {
-  document.getElementById("addButton-" + index).addEventListener("click", function (){
+let total = 0;
 
-  });
+for (const note of notes) {
+  total += note;
 }
 
-// test delet last row in table (only for "ecole-pro")
-function deleteRow() {
-  document.getElementById("table_ecole-pro").deleteRow(-1);
+const moyenne = total / notes.length;
+console.log(moyenne);
+
+
+
+if ( averageTotal >= 4) {
+      document.getElementById("averageTotal").innerHTML = "Réussi";
+    } else {
+      document.getElementById("averageTotal").innerHTML = "Raté";
+      document.body.reussiOuEchec.style.backgroundColor = "red"
+    }
+
+
+for (const iterator of document.getElementsByClassName) {
+  
 }
 
-document.getElementById("delButton-1").addEventListener("click", function () {
-  deleteRow();
-});
+
+
+
+
+
+
+
+
+
+
+
+
+// delet last row
+
+// function deleteRow1() {
+//   document.getElementById("table-1").deleteRow(-1);
+// }
+// document.getElementById("delButton-1").addEventListener("click", function () {
+//   deleteRow1();
+// });
